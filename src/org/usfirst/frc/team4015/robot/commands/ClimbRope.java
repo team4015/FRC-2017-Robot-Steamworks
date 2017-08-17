@@ -4,6 +4,12 @@ import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc.team4015.robot.Robot;
 import org.usfirst.frc.team4015.robot.OI;
 
+/* ===================================================
+ * This command spins the winch to climb up the rope.
+ * The winch is controlled by button 5 on the Logitech
+ * Attack 3 joystick
+ * =================================================*/
+
 public class ClimbRope extends Command
 {
 	public ClimbRope()

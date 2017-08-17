@@ -5,6 +5,10 @@ import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc.team4015.robot.OI;
 import org.usfirst.frc.team4015.robot.Robot;
 
+/* ===================================================
+ * This command drives the robot with one or two joysticks.
+ * =================================================*/
+
 public class Drive extends Command
 {
 	public Drive()

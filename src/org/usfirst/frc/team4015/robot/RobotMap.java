@@ -10,7 +10,6 @@ public class RobotMap
 	
 	public static final int leftStickPort = 0;
 	public static final int rightStickPort = 1;
-	public static final int gamepadPort = 2;
 	
 	// DRIVE MOTOR CHANNELS //
 	

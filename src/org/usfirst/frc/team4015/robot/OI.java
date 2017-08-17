@@ -5,11 +5,10 @@ import org.usfirst.frc.team4015.robot.RobotMap;
 
 /* =============================================================================
  * This class stores the objects that are used to interface with the joysticks
- * and game controllers for controlling the robot.
+ * and controllers used for controlling the robot.
  * ============================================================================*/
 public class OI
 {	
 	public static Joystick leftStick = new Joystick(RobotMap.leftStickPort);
 	public static Joystick rightStick = new Joystick(RobotMap.rightStickPort);
-	public static Joystick gamepad = new Joystick(RobotMap.gamepadPort);
 }

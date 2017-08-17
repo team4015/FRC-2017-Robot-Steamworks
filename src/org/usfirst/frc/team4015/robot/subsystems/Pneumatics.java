@@ -1,10 +1,14 @@
 package org.usfirst.frc.team4015.robot.subsystems;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
-
 import org.usfirst.frc.team4015.robot.RobotMap;
 import org.usfirst.frc.team4015.robot.subsystems.pneumaticsControl.Piston;
 import edu.wpi.first.wpilibj.Compressor;
+
+/* ===================================================
+ * This class contains the methods/objects required to 
+ * control the compressor and ramp.
+ * =================================================*/
 
 public class Pneumatics extends Subsystem
 {

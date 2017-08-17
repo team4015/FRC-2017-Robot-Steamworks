@@ -3,6 +3,11 @@ package org.usfirst.frc.team4015.robot.subsystems;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.Spark;
 
+/* ===================================================
+ * This class contains the methods required to control
+ * the winch.
+ * =================================================*/
+
 public class Winch extends Subsystem
 { 
 	public Spark winchMotors;

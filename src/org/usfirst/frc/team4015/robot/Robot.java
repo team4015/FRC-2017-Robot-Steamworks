@@ -18,7 +18,7 @@ import org.usfirst.frc.team4015.robot.robotModes.Auto;
 
 /* =============================================================================
  * The RoboRIO will automatically run the methods in this class depending on
- * which part of the match it is in.
+ * which part of the match is being played.
  * ============================================================================*/
 
 public class Robot extends IterativeRobot
@@ -36,8 +36,7 @@ public class Robot extends IterativeRobot
 	
 	/* ===================================
 	 * This function is run when the robot 
-	 * is first started up and should be
-	 * used for any initialization code.
+	 * is first started up.
 	 * ==================================*/
 	
 	@Override
@@ -100,6 +99,10 @@ public class Robot extends IterativeRobot
 		// Run Scheduler to manage Commands / CommandGroups
 		Scheduler.getInstance().run();
 	}
+	
+	/* ================================================
+	 * This method is called at the beginning of teleop
+	 * ==============================================*/
 
 	@Override
 	public void teleopInit()
@@ -133,6 +136,7 @@ public class Robot extends IterativeRobot
 	/* =====================================================
 	 * This function is called periodically during test mode
 	 * ====================================================*/
+	
 	@Override
 	public void testPeriodic()
 	{

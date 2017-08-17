@@ -6,6 +6,13 @@ import org.usfirst.frc.team4015.robot.commands.ToggleCompressor;
 import org.usfirst.frc.team4015.robot.commands.ClimbRope;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
+/* ===================================================
+ * This CommandGroup enables control of the drivetrain,
+ * ramp, winch, and compressor during teleop mode.
+ * To leave the compressor on automatic control, 
+ * remove the line "addParallel(new ToggleCompressor());"
+ * =================================================*/
+
 public class Teleop extends CommandGroup
 {
 	// CONSTRUCTOR //

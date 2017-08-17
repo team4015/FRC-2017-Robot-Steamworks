@@ -3,7 +3,11 @@ package org.usfirst.frc.team4015.robot.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc.team4015.robot.Robot;
 
-// The compressor will run in preparation for teleop
+/* ===================================================
+ * This command drives the robot in a straight line
+ * to the baseline in the autonomous period.
+ * The compressor will run in preparation for teleop.
+ * =================================================*/
 
 public class DriveToBaseLine extends Command
 {
