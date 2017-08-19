@@ -8,10 +8,6 @@ import org.usfirst.frc.team4015.robot.RobotMap;
  * and controllers used for controlling the robot.
  * ============================================================================*/
 
-
-//////
-
-
 public class OI
 {	
 	public static Joystick leftStick = new Joystick(RobotMap.leftStickPort);
